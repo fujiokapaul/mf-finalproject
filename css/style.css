@@ -1,0 +1,84 @@
+@font-face {
+    font-family: nodesto;
+    src: url(../font/Nodesto\ Caps\ Condensed.otf);
+}
+*{
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: #ffffff;
+    font-family: nodesto;    
+    text-decoration: none;
+}
+body{
+    height: 100%;
+}
+.parallax-1, .parallax-2, .parallax-3, .parallax-4{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.parallax-1{
+    background-image: url(../img/library.jpg);
+    height: 80vh;
+}
+.parallax-2{
+    background-image: url(../img/p3.jpg);
+    height: 80vh;
+}
+.parallax-3{
+    background-image: url(../img/world.jpg);
+    height: 180vh;
+    position: relative;
+}
+.parallax-4{
+    background-image: url(../img/p4.jpg);
+    height: 80vh;
+}
+.navbar{
+    background-image: url(../img/parchment1.jpg);
+}
+.drop{
+    background-image: url(../img/parchment1.jpg);
+}
+.jumbotron{
+    background-image: url(../img/parchment1.jpg);
+    margin: 0;
+}
+.author{
+    height: 448px;
+}
+.lore{
+    background-image: url(../img/parchment.jpg);
+    background-size: cover;
+    height: 0;
+}
+.lorebox{
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, .5);
+    background-attachment: fixed;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 0;
+    margin-top: 0;
+}
+.image{
+    height: 300px;
+    width: 300px;
+}
+.card-header{
+    background-image: url(../img/parchment1.jpg);
+}
+.card-body{
+    background-image: url(../img/parchment.jpg);
+}
+.footer{
+    text-align: center;
+    text-decoration: none;
+    background-image: url(../img/parchment1.jpg);
+}
+.fa{
+    color: #ffffff;
+    text-shadow: none;
+}
