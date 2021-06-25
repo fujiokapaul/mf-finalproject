@@ -25,6 +25,11 @@ body{
     background-attachment: fixed;
     background-position: center;
 }
+@media only screen and (max-width: 900px) {
+    .parallax-1, .parallax-2, .parallax-3, .parallax-4 {
+        background-attachment: scroll;
+    }
+}
 .parallax-1{
     background-image: url(../img/library.jpg);
     height: 80vh;
