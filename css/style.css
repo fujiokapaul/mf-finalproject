@@ -2,6 +2,14 @@
     font-family: nodesto;
     src: url(../font/Nodesto\ Caps\ Condensed.otf);
 }
+@font-face {
+    font-family: mreaves;
+    src: url(../font/Mr\ Eaves\ Small\ Caps.otf);
+}
+@font-face {
+    font-family: scaly;
+    src: url(../font/Scaly\ Sans.otf);
+}
 *{
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     color: #ffffff;
