@@ -22,7 +22,7 @@ body{
 .parallax-1, .parallax-2, .parallax-3, .parallax-4{
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
 }
 @media only screen and (max-width: 900px) {
